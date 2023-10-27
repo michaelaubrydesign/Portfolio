@@ -28,7 +28,7 @@ h1 {
 
 h2 {
   font-size: 1.5em;
-  color: #368AF6;
+  color: #0B70F4;
   font-weight: 700;
   text-transform: uppercase;
 }
@@ -149,7 +149,7 @@ span {
 }
 .hero__intro__links {
   display: flex;
-  gap: 10px;
+  gap: 20px;
 }
 @media screen and (max-width: 767px) {
   .hero__intro__links {
@@ -287,7 +287,7 @@ span {
   display: flex;
   flex-direction: row;
   gap: 50px;
-  color: #368AF6;
+  color: #0B70F4;
 }
 .projets__projet__content__links {
   display: flex;
@@ -340,7 +340,7 @@ span {
   display: flex;
   flex-direction: row;
   gap: 50px;
-  color: #368AF6;
+  color: #0B70F4;
 }
 .projets__projet__bis__content__links {
   display: flex;
@@ -365,7 +365,7 @@ span {
 }
 #contact i {
   font-size: 1.5em;
-  color: #368AF6;
+  color: #0B70F4;
   margin-bottom: 20px;
 }
 #contact span {
