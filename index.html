@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Michael Aubry - Portfolio</title>
+    <meta name="description" content="Michaël Aubry - Développeur front-end React">
+    <link rel="stylesheet" href="https://unpkg.com/scss-reset/reset.css">
+    <link href="css/styles.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/8ddaac793c.js" crossorigin="anonymous"></script>
+    <script src="js/main.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <nav class="nav">
+            <a href="/index.html"><img src="assets/Michael.dev.svg" alt="Logo Michael.dev" class="nav__logo"></a>
+            <div class="nav__links">
+                <a href="#hero">Accueil</a>
+                <a href="#apropos">À propos</a>
+                <a href="#projets">Projets</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </nav>
+        <nav class="mobile-nav">
+            <a href="/index.html"><img src="assets/Michael.dev.svg" alt="Logo Michael.dev" class="mobile-nav__logo"></a>
+            <i class="fa-solid fa-bars" id="menu-icon"></i>
+            <div class="mobile-nav__side-panel">
+                <div class="close-icon-wrapper">
+                    <i class="fa-solid fa-times" id="close-icon-mobile"></i>
+                </div>
+                <div class="mobile-nav__side-panel__links">
+                    <a href="#hero">Accueil</a>
+                    <a href="#apropos">À propos</a>
+                    <a href="#projets">Projets</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="hero" class="hero">
+            <div class="hero__photo">
+                <img src="assets/MichaelAubryID.jpg" alt="Photo de Michael Aubry">
+            </div>
+            <div class="hero__intro">
+                <h1>Développeur <br> Front-End React &#128075;&#127995;</h1>
+                <p>Hello, je suis Michaël Aubry.<br>
+                    Développeur front-end React avec expertise en UX/UI design.</p>
+                <div class="hero__intro__links">
+                    <a href="https://linkedin.com/in/michael-aubry"><img src="assets/linkedinlogo.svg"
+                            alt="Logo LinkedIn"></a>
+                    <a href="https://github.com/michaelaubrydesign"><img src="assets/githublogo.svg"
+                            alt="Logo GitHub"></a>
+                </div>
+            </div>
+        </section>
+        <div class="skills">
+            <div class="skills__logos">
+                <span>Code</span>
+                <div class="skills__logo__separator">|</div>
+                <img src="assets/HTML.svg" alt="Logo HTML">
+                <img src="assets/CSS.svg" alt="Logo CSS">
+                <img src="assets/JavaScript.svg" alt="Logo JavaScript">
+                <img src="assets/React.svg" alt="Logo React">
+                <img src="assets/SASS.svg" alt="Logo SASS">
+            </div>
+            <div class="skills__logos">
+                <span>Design</span>
+                <div class="skills__logo__separator">|</div>
+                <img src="assets/Figma.svg" alt="Logo Figma">
+                <img src="assets/Zeplin.svg" alt="Logo Zeplin">
+                <img src="assets/Photoshop.svg" alt="Logo Photoshop">
+                <img src="assets/Illustrator.svg" alt="Logo Illustrator">
+                <img src="assets/InDesign.svg" alt="Logo InDesign">
+            </div>
+        </div>
+        <section id="apropos" class="apropos">
+            <div class="apropos__image">
+                <img src="assets/aproposimg.jpg" alt="Érans affichant du code">
+            </div>
+            <div class="apropos__content">
+                <h2>À propos de moi</h2>
+                <h3>Développeur front-end React avec expertise en UX/UI design</h3>
+                <p>Fort de quatre années d'expérience en tant que designer UX/UI, ma compréhension profonde de
+                    l'expérience
+                    utilisateur et ma sensibilité pour l'esthétique web se combinent harmonieusement avec mes
+                    compétences en
+                    développement front-end React. Au fil des années, j'ai perfectionné l'art de transformer des
+                    concepts créatifs
+                    en interfaces utilisateur interactives et intuitives.</p>
+            </div>
+        </section>
+        <section id="projets" class="projets">
+            <h2>Projets</h2>
+            <div class="projets__projet">
+                <div class="projets__projet__image">
+                    <img src="assets/projets/ArgentBank.png" alt="Capture d'écran projet Argent Bank">
+                </div>
+                <div class="projets__projet__content">
+                    <h3>Argent Bank - Application bancaire</h3>
+                    <p>Implémentation du front-end d'une appplication bancaire :<br> Authentification utilisateur,
+                        modification d'information de l'utilisateur connecté. Ajout de routes API via Swagger.</p>
+                    <div class="projets__projet__content__technos">
+                        <span>React</span>
+                        <span>Redux</span>
+                    </div>
+                    <div class="projets__projet__content__links">
+                        <a href="https://github.com/michaelaubrydesign/OC-Projet11.git">Code<img
+                                src="assets/githublogo.svg" alt="Logo GitHub"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="projets__projet__bis">
+                <div class="projets__projet__bis__image">
+                    <img src="assets/projets/Kasa.png" alt="Capture d'écran projet Kasa">
+                </div>
+                <div class="projets__projet__content">
+                    <h3>Kasa - Réservation de logement</h3>
+                    <p>Création du routeur et des différentes pages de l'application. Affichage de la liste des
+                        logements
+                        depuis
+                        un fichier JSON. Page logement contenant les informations du logement sélectionné.
+                    </p>
+                    <div class="projets__projet__bis__content__technos">
+                        <span>React</span>
+                        <span>SASS</span>
+                    </div>
+                    <div class="projets__projet__bis__content__links">
+                        <a href="https://github.com/michaelaubrydesign/OC-Projet8.git">Code<img
+                                src="assets/githublogo.svg" alt="Logo GitHub"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="projets__projet">
+                <div class="projets__projet__image">
+                    <img src="assets/projets/SophieBluel.png" alt="Capture d'écran projet portfolio photographe">
+                </div>
+                <div class="projets__projet__content">
+                    <h3>Sophie Bluel - Portfolio photographe</h3>
+                    <p>Intégration des différentes pages. Fonctionnalité de connexion. Filtrage des projets.
+                        Ajout et suppression de projets via une modale avec mise à jour du back-end.</p>
+                    <div class="projets__projet__content__technos">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JS</span>
+                    </div>
+                    <div class="projets__projet__content__links">
+                        <a href="https://github.com/michaelaubrydesign/OC-Projet6.git">Code<img
+                                src="assets/githublogo.svg" alt="Logo GitHub"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="projets__projet__bis">
+                <div class="projets__projet__bis__image">
+                    <img src="assets/projets/ohmyfood.png" alt="Capture d'écran projet Ohmyfood">
+                </div>
+                <div class="projets__projet__bis__content">
+                    <h3>Ohmyfood - Commande restaurant</h3>
+                    <p>Intégration responsive mobile first et création d'animations dynamiques.
+                    </p>
+                    <div class="projets__projet__bis__content__technos">
+                        <span>HTML</span>
+                        <span>SASS</span>
+                    </div>
+                    <div class="projets__projet__bis__content__links">
+                        <a href="https://github.com/michaelaubrydesign/OC-Projet8.git">Code<img
+                                src="assets/githublogo.svg" alt="Logo GitHub"></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="contact">
+            <h2>Contact</h2>
+            <i class=" fa-solid fa-envelope-open-text"></i>
+            <span>Email</span>
+            <p>michael.aubry.design@gmail.com</p>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+    <script src="main.js"></script>
+</body>
+
+</html>
