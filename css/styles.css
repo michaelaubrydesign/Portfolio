@@ -283,6 +283,11 @@ span {
   gap: 20px;
   max-width: 320px;
 }
+@media screen and (max-width: 767px) {
+  .projets__projet__content {
+    max-width: 100%;
+  }
+}
 .projets__projet__content__technos {
   display: flex;
   flex-direction: row;
@@ -335,6 +340,11 @@ span {
   flex-direction: column;
   gap: 20px;
   max-width: 320px;
+}
+@media screen and (max-width: 767px) {
+  .projets__projet__bis__content {
+    max-width: 100%;
+  }
 }
 .projets__projet__bis__content__technos {
   display: flex;
